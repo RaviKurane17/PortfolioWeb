@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">    
+
+
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body><header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#home" class="active">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#services">SERVICES</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+</header>
+
+<!-- Home Section -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Ravi Kurane</h1>
+        <h3>And I'm a <span id="job-title"></span></h3>
+        <p>I'm a motivated junior Java developer eager to build scalable applications and grow my skills in software development.
+        </p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/ravindra-kurane-8546bb270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+             
+            <a href="https://www.instagram.com/ravikurane_17?igsh=MXZ3eXp6OGRlMWx0Yw=="><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <a href="#" onclick="downloadResume()" class="btn">Download Resume</a>
+    </div>
+
+    <div class="home-img">
+        <img src="logoroman.jpg" alt="Profile Image">
+    </div>
+</section>
+
+<!-- About Section layout -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="logoroman.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Java Developer</h3>
+        <p id="about-text">
+            A detail-oriented junior Java developer with hands-on experience in building and debugging applications,
+             eager to contribute to impactful projects and grow within a dynamic team.
+             
+        </p>
+        <p id="additional-text" style="display: none;">
+            "Hi, I'm <bold>Ravi Kurane</bold>, a Java developer with a passion for creating efficient and user-friendly applications.
+             I'm Junior Java Developer, Spring Boot, and REST APIs to develop scalable software solutions.
+              I enjoy solving complex problems and am always eager to learn new technologies to enhance my skills."
+        </p>
+        <button class="btn" id="read-more-btn">Read More</button>
+    </div>
+</section>
+
+ 
+<!-- services section layout  -->
+<section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+        <!-- Service 1 -->
+        <div class="services-box">
+            <i class="fa-brands fa-java"></i>
+            <h3>Java Developer</h3>
+            <p>
+                As a junior Java developer, I specialize in building and maintaining backend systems, 
+                developing APIs, and ensuring efficient and scalable software solutions.
+            </p>
+            <a href="https://ravikurane.netlify.app" class="btn">Read More</a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="services-box">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <h3>Website Developer</h3>
+            <p>
+                I provide website development services using Java, focusing on creating dynamic, responsive, 
+                and user-friendly web applications with clean and efficient code.
+            </p>
+            <a href="https://ravikurane.netlify.app" class="btn">Read More</a>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="services-box">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Digital Marketing</h3>
+            <p>
+                I offer digital marketing services to help businesses grow online, utilizing strategies in SEO, social media, 
+                and content marketing to drive traffic and increase engagement.
+            </p>
+            <a href="https://ravikurane.netlify.app" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- portfolio design layout -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">
+        Lestest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="rklogo-removebg-preview (1).png" alt="">
+                <div class="portfolio-layer">
+                    <h3>Web Development</h3>
+                    <p>Developed a responsive and user-friendly website for [Client/Project Name], utilizing HTML, CSS, JavaScript,
+                         and Java-based backend technologies to enhance user experience and streamline functionality.
+                    </p>
+                        <a href="https://ravikurane.netlify.app"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pro2img.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h3>User Management</h3>
+                    <p>Developed a user management system using Java and Spring Boot, enabling efficient user registration, authentication,
+                         role-based access control, and seamless data handling for an enhanced user experience.</p>
+                        <a href="https://usermanageravi.netlify.app"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pro2img.avif" alt="">
+                <div class="portfolio-layer">
+                    <h3>Ouiz management System</h3>
+                    <p>Built a quiz management system using Java and Spring Boot, allowing users to create, manage,
+                         and take quizzes, with features for question categorization, timed assessments, and result tracking.
+                    </p>
+                        <a href="https://quizemanageravi.netkify.app"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    
+    <!-- Netlify-enabled form -->
+    <form name="contact" method="POST" data-netlify="true" onsubmit="showThankYouMessage(event)">
+        <!-- Important hidden input for Netlify -->
+        <input type="hidden" name="form-name" value="contact">
+        
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="input-box">
+            <input type="number" name="mobile" placeholder="Enter Your Mobile Number" required>
+            <input type="text" name="subject" placeholder="Email Subject" required>
+        </div>
+
+        <textarea name="message" cols="30" rows="8" placeholder="Your Message" required></textarea>
+
+        <input type="submit" value="Send" class="btn">
+    </form>
+</section>
+
+<!-- Thank You Popup -->
+<div id="thank-you-popup" class="thank-you-popup" style="display: none;">
+    <div class="thank-you-content">
+        <h2>Thank You!</h2>
+        <p>Your message has been sent. We will get back to you soon.</p>
+        <button id="ok-button">OK</button>
+    </div>
+</div>
+
+
+
+
+
+<!-- footer design  -->
+<footer class="footer">
+<div class="footer-text">
+    <p>Copyrihgt &copy; 2025 by Ravikurane | All Rights Reserved</p>
+</div>
+
+
+<div class="footer-iconTop">
+    <a href="#home"> <i class="fa-solid fa-arrow-up"></i> </a>
+
+</div>
+
+
+ </footer>
+<script>
+    const menuIcon = document.querySelector("#menu-icon");
+    const navbar = document.querySelector(".navbar");
+
+    menuIcon.addEventListener("click", () => {
+        navbar.classList.toggle("show");
+    });
+</script> 
+
+<script>
+    function showThankYouMessage(event) {
+        event.preventDefault();
+    
+        // Send the form data to Netlify manually
+        const form = event.target;
+        const data = new FormData(form);
+    
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(data).toString()
+        })
+        .then(() => {
+            document.getElementById('thank-you-popup').style.display = 'flex';
+            form.reset();
+        })
+        .catch(error => alert("Error submitting the form: " + error));
+    }
+    
+    // Close the "Thank You" popup
+    document.getElementById('ok-button').addEventListener('click', function () {
+        document.getElementById('thank-you-popup').style.display = 'none';
+    });
+    </script>
+    
+
+<script>
+    const readMoreBtn = document.getElementById("read-more-btn");
+    const additionalText = document.getElementById("additional-text");
+
+    readMoreBtn.addEventListener("click", () => {
+        if (additionalText.style.display === "none") {
+            additionalText.style.display = "block";
+            readMoreBtn.textContent = "Read Less";
+        } else {
+            additionalText.style.display = "none";
+            readMoreBtn.textContent = "Read More";
+        }
+    });
+</script>
+
+
+<script>
+    // Initialize ScrollReveal
+    const sr = ScrollReveal({
+        origin: 'top',    // Animation starts from the top
+        distance: '50px', // Distance the element moves
+        duration: 2000,   // Animation duration in milliseconds
+        delay: 200,       // Delay before the animation starts
+        reset: true       // Animation will repeat on scroll
+    });
+
+    // Reveal the elements
+    sr.reveal('#name', { 
+        origin: 'left',
+        delay: 400,
+        opacity: 0
+    });
+
+    // Reveal elements
+    sr.reveal('.home-content', { delay: 300 });
+    sr.reveal('.home-img', { origin: 'right', delay: 400 });
+    sr.reveal('.about-img', { origin: 'left', delay: 300 });
+    sr.reveal('.about-content', { origin: 'right', delay: 300 });
+    sr.reveal('.services-box', { interval: 200 }); // Reveal service boxes sequentially
+    sr.reveal('.portfolio-box', { interval: 200 });
+    sr.reveal('.contact form', { delay: 300 });
+
+
+    ScrollReveal().reveal('.home-content, heading', { origin: 'top' });
+
+ ScrollReveal().reveal('.home-img, .services-container, portfolio-box, contact form', { origin: 'bottom' });
+
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+
+
+    window.onload = function () {
+    const jobTitle = document.getElementById('job-title');
+    
+    // Text to type
+    const text = "Java Developer";
+    let index = 0;
+    
+    // Function to type the text dynamically
+    function type() {
+        if (index < text.length) {
+            jobTitle.textContent += text.charAt(index);
+            index++;
+            setTimeout(type, 150); // Adjust typing speed by changing the delay
+        } else {
+            // Optionally, you can add a blinking cursor or other effects here
+            jobTitle.classList.add('typing');
+        }
+    }
+
+    type(); // Start typing the text
+};
+
+
+
+
+</script>
+
+<script>
+    function downloadResume() {
+        const password = prompt("Please enter the password to download the resume:");
+        const correctPassword = "4414"; // Replace with your desired password
+
+        if (password === correctPassword) {
+            const link = document.createElement('a');
+            link.href = "resumenew.jpeg"; // Replace with the actual path to your resume
+            link.download = "Ravi_Kurane_Resume.pdf"; // Replace with the desired file name
+            link.click();
+            alert("Resume downloaded successfully!");
+        } else {
+            alert("Incorrect password. Please try again.");
+        }
+    }
+</script>
+
+
+<script>
+    function toggleReadMore(id, button) {
+        const moreText = document.getElementById(id);
+        if (moreText.style.display === "none") {
+            moreText.style.display = "block";
+            button.textContent = "Read Less";
+        } else {
+            moreText.style.display = "none";
+            button.textContent = "Read More";
+        }
+    }
+</script>
+
+
+</body>
+</html>
